@@ -18,6 +18,6 @@ Here $(s,a)$ represent the current state $(s)$ and action $(a)$ choices. $s'$ re
 
 
 The algorithm terminates if the agent finds the exit or if the agent takes 1000 steps.
-The action-value function updates at each step, eventually converging on a matrix which shows at every state $s$, what the ``best'' action $a$ is to take in order to reach the exit.
+The action-value function updates at each step, eventually converging on a matrix which shows at every state $s$, what the `best' action $a$ is to take in order to reach the exit.
 We visualize this matrix by converting these instructions to ``up'',``down'', ``left'' and ``right'': highlighting the algorithm's success.
 
